@@ -1,0 +1,19 @@
+package OOP;
+
+
+
+public class cpu_Intel extends CPU {
+
+	@Override
+	CPU CPUMaker(String name, int coreNum, long price) {
+		// TODO Auto-generated method stub
+		CPU cpu = new cpu_Intel();
+		cpu.brand = "Intel";
+		cpu.name = name;
+		cpu.coreNum = coreNum;
+		cpu.price = price;
+		
+		return cpu;
+	}
+
+}
